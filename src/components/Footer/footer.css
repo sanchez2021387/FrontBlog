@@ -1,0 +1,50 @@
+.footer {
+  background: linear-gradient(135deg, #000000, #ff0000); /* Degradado de negro a rojo */
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+  display: inline-block; /* Alinea los elementos en línea */
+}
+
+.footer-column ul li:not(:last-child) {
+  margin-right: 10px; /* Espaciado entre elementos */
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Aumenta el tamaño de la letra para todos los elementos de la lista */
+.footer-column ul li a {
+  font-size: 1.8rem; /* Tamaño de la fuente aumentado */
+}

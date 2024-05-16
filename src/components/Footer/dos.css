@@ -1,0 +1,190 @@
+/* Contenedor Principal */
+.container {
+  background: linear-gradient(to right, red, black, red); /* Efecto tornasol */
+  border: 1px solid #e0e0e0; /* Borde suave */
+  border-radius: 20px; /* Bordes redondeados más grandes */
+  padding: 30px; /* Mayor espacio interno */
+  width: 350px; /* Ajuste de ancho aumentado */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  margin: 30px auto; /* Mayor margen */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animación en hover */
+}
+
+.container:hover {
+  transform: translateY(-10px); /* Efecto hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+/* Título Principal */
+.title-1 {
+  background-color: transparent; /* Fondo transparente */
+  padding: 16px; /* Menor padding */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Mayor espacio inferior */
+  font-size: 1.5rem; /* Tamaño de fuente aumentado */
+  font-weight: bold;
+  color: #fff; /* Texto blanco */
+  text-align: center;
+}
+
+/* Nombre del Proyecto */
+.project-name {
+  font-weight: bold;
+  margin-bottom: 12px; /* Espacio inferior reducido */
+  color: #fff; /* Texto blanco */
+}
+
+/* Descripción del Proyecto */
+.description-project {
+  font-style: italic;
+  margin-bottom: 20px; /* Espacio inferior aumentado */
+  color: #f0f0f0; /* Texto gris claro */
+}
+
+/* Estilos para el botón */
+a button {
+  display: block;
+  background-color: #000000; /* Azul */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 14px; /* Padding aumentado */
+  margin-top: 20px; /* Mayor espacio superior */
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s; /* Animación */
+}
+
+a button:hover {
+  background-color: #000102; /* Azul más oscuro */
+  transform: scale(1.05); /* Pequeño zoom */
+}
+
+/* Título de la Categoría */
+.title-category-class {
+  font-size: 28px; /* Tamaño de fuente aumentado */
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px; /* Mayor espacio inferior */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  padding: 20px; /* Padding aumentado */
+  background: linear-gradient(to right, red, black, red); /* Efecto tornasol */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Animación */
+}
+
+.title-category-class:hover {
+  background: linear-gradient(to right, black, red, black); /* Efecto tornasol */
+
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+/* Descripción del Texto */
+.text-description {
+  text-align: justify;
+  font-size: 18px; /* Tamaño de fuente aumentado */
+  line-height: 1.8; /* Espaciado de línea aumentado */
+  color: #f0f0f0; /* Texto gris claro */
+  margin-bottom: 30px; /* Mayor espacio inferior */
+}
+
+/* Enlace para Obtener Proyecto */
+.Get-project {
+  text-decoration: none;
+}
+
+.Get-project button {
+  display: inline-block;
+  padding: 12px 24px; /* Padding aumentado */
+  background-color: #000000; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Get-project button:hover {
+  background-color: #000000; /* Azul más oscuro */
+}
+
+/* Contenedor Principal */
+.bg {
+  background: linear-gradient(to right, red, black, red); /* Efecto tornasol */
+  padding: 30px; /* Mayor padding */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+/* Contenedor Interno */
+.sss {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  padding: 30px; /* Mayor padding */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+/* Título */
+.Contenedor-categorias {
+  font-size: 2rem; /* Tamaño de fuente aumentado */
+  color: #333;
+  margin-bottom: 30px; /* Mayor espacio inferior */
+  text-align: center;
+}
+
+/* Lista de Categorías */
+.lista-categorias {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-categorias li {
+  margin-bottom: 20px; /* Mayor espacio inferior */
+}
+
+.lista-categorias li a {
+  display: block;
+  padding: 16px; /* Padding aumentado */
+  background: linear-gradient(to right, red, black, red); /* Efecto tornasol */
+  color: #fff; /* Texto blanco */
+  text-decoration: none;
+  border-radius: 10px; /* Bordes redondeados */
+
+}
+
+/* Contenedor Principal */
+.container {
+  background: linear-gradient(to right,black, red, black); /* Efecto tornasol */
+  border: 1px solid #e0e0e0; /* Borde suave */
+  border-radius: 20px; /* Bordes redondeados más grandes */
+  padding: 30px; /* Mayor espacio interno */
+  width: calc(50% - 40px); /* Ancho del 50% con margen */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  margin: 20px; /* Espacio entre contenedores */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animación en hover */
+  display: inline-block; /* Cambio a inline-block para que se muestren dos en una fila */
+  vertical-align: top; /* Alinear al principio */
+}
+
+.container:hover {
+  transform: translateY(-10px); /* Efecto hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+/* Contenedor Principal */
+.bg {
+  background: linear-gradient(to right,red, black, red); /* Efecto tornasol */
+  padding: 30px; /* Mayor padding */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  display: flex; /* Utilizar flexbox para el diseño */
+  flex-wrap: wrap; /* Permitir el ajuste de líneas */
+  justify-content: space-between; /* Distribuir los elementos uniformemente */
+}
